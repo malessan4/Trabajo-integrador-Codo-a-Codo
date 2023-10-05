@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mih2{
+    font-size: 20px;
+    display: inline;
+    color: white;
+}
+
+.mihrefverde{
+    text-decoration: none;
+    color: green;
+
+
+}
+
+.mihrefgris{
+    text-decoration: none;
+    color: grey;
+
+}
+
+.mihref{
+    text-decoration: none;
+    color: white;
+
+}
+
+.conoce{
+    text-align: center;
+}
+
+.oradores{
+    text-align: center;
+}
+
+.conoceboton{
+border-radius: 4px;
+background-color:transparent;
+color:white;
+}
+
+.card{
+   width:60%;
+margin-left: 20%;
+}
+
+.card-body{
+margin-bottom:20px;
+
+
+}
+
+.bs2{
+  background-color:black;
+  color: #add8e6;
+  text-decoration-style: wavy;
+}
+
+.java{
+  border-radius: 4px;
+  background-color:yellow;
+  font-size: 10px;
+}
+
+.react{
+  border-radius: 4px;
+  background-color:#008FFF;
+  font-size: 10px;
+  color: white;
+}
+
+.negocio{
+  border-radius: 4px;
+  background-color:grey;
+  font-size: 10px;
+  color: white;
+}
+
+.star{
+  border-radius: 4px;
+  background-color:red;
+  font-size: 10px;
+  color: white;
+}
+
+.honolulu{
+  width:100%;
+}
+
+.playa{
+color:white;
+}
+
+.octubre{
+color:white;
+}
+
+.col-6{
+background-color:grey;
+}
+
+.formulario{
+align-items: center;
+text-align: center;
+}
