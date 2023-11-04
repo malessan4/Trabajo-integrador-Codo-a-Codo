@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Comprar Tickets</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqE93+28l8y/tJ4LSjK9b7ZtEXqHGm8nD9j7vZ17+lY+R5Nh7EvV46qDHh9+lQ" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+        <img class="imagen-logo" src="codoacodo.png" alt="logo" width="130px" height="65px">
+        <h2 class="mih2">Conf Bs As</h2>
+            <a href="index.html" class="mihref">La conferencia</a>
+            <a href="index.html"class="mihrefgris">Los oradores</a>
+            <a href="index.html"class="mihrefgris">Lugar y fecha</a>
+            <a href="index.html"class="mihrefgris">Conviertete en Orador </a>
+            <a href="comprartickets.html"class="mihrefverde">Comprar ticket</a>
+            </div>
+        </nav>
+    </header>
+<main>
+<br>
+<br>
+<br>
+    <div class="row">
+        <div class="col-sm">
+          <div class="card border-primary">
+            <div class="card-body">
+              <h5 class="card-title">Estudiante</h5>
+              <p class="card-text">Tienen un descuento</p>
+              <p class="card-text"><b>80%</b></p>
+              <p class="chiquito">*presentar documentación</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card border-info">
+            <div class="card-body">
+                <h5 class="card-title">Trainee</h5>
+                <p class="card-text">Tienen un descuento</p>
+                <p class="card-text"><b>50%</b></p>
+                <p class="chiquito">*presentar documentación</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+            <div class="card border-warning">
+              <div class="card-body">
+                <h5 class="card-title">Junior</h5>
+                <p class="card-text">Tienen un descuento</p>
+                <p class="card-text"><b>15%</b></p>
+                <p class="chiquito">*presentar documentación</p>
+              </div>
+            </div>
+          </div>
+      </div>
+<br>
+<p class="pmedio">VENTA</p>
+<h1 class="ticketh1">VALOR DEL TICKET $200</h1>
+
+<form action="">
+  <div class="row gx-2">
+      <div class="col-md mb-3">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre" required>
+      </div>
+      <div class="col-md mb-3">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido" required>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col mb-3">
+          <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="mail" required>
+      </div>
+  </div>
+  <div class="row gx-2">
+      <div class="col-md mb-3">
+          <label for="cantidadTickets" class="form-label">Cantidad</label>
+          <input type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="cantidadTickets" min="1" required>
+      </div>
+      <div class="col-md mb-3">
+          <label for="categoriaSelect" class="form-label">Categoría</label>
+          <select class="form-select" aria-label="Categoría" id="categoriaSelect">
+              <option value="" selected>-- Seleccione --</option>
+              <option value="0">Sin Categoria</option>
+              <option value="1">Estudiante</option>
+              <option value="2">Trainee</option>
+              <option value="3">Junior</option>
+          </select>
+      </div>
+  </div>
+  <div class="alert alert-primary mt-2 mb-4" role="alert">
+      Total a pagar: $ <span id="totalPago" class="align-middle"></span>
+  </div>
+  <div class="row gx-2">
+      <div class="col-md mb-3">
+          <button type="reset" class="w-100 btn btn-lg btn-form" id="btnBorrar">Borrar</button>
+      </div>
+      <div class="col-md mb-3">
+          <button type="button" class="w-100 btn btn-lg btn-form" id="btnResumen">Resumen</button>
+      </div>
+  </div>
+</form>
+</div>
+</div>
+</section>
+
+
+</main>
+
+
+
+
+
+
+
+<script src="compra-tickets.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

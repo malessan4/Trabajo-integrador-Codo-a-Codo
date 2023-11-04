@@ -51,8 +51,23 @@ margin-left: 20%;
 
 .card-body{
 margin-bottom:20px;
+text-align: center;
+
+}
 
 
+
+.ticketh1{
+  text-align: center;
+}
+
+
+.pmedio{
+  text-align: center;
+}
+
+.chiquito{
+  font-size: 12px;
 }
 
 .bs2{
@@ -132,6 +147,14 @@ form label{
 	display:inline-block;
 }
 
+#comprar-entradas{
+  text-align: center;
+}
+
+#formulario-entradas{
+  text-align: center;
+}
+
 form input[type="text"],
 form input[type="email"]{
   align-items: center;
@@ -140,6 +163,8 @@ form input[type="email"]{
 	background-color:#f6f6f6;
 	display:inline-block;
   border-color: #000;
+  margin: 5px;
+  padding: 5px;
 }
 
 form input[type="submit"]{
@@ -168,7 +193,30 @@ padding: 20px;
 	background-color:#f6f6f6;			
 	margin:8px 0;
   border-color: #000;
-	/*resize: vertical | horizontal | none | both*/
 	resize:none;
 	display:block;
+}
+
+#btnBorrar:hover{
+	background-color:red;
+	color:white;
+	transition: 1s;
+
+	
+}
+
+#btnBorrar:not(:hover){
+	transition: 1s;
+}
+
+#btnResumen:hover{
+	background-color:green;
+	color:white;
+	transition: 1s;
+	
+}
+
+#btnResumen:not(:hover){
+
+		transition: 1s;
 }
